@@ -4,4 +4,6 @@ set(CMAKE_C_STANDARD 99)
 add_executable(
         ${PROJECT_NAME}
         Main.c
+        game.c
+        game.h
 )

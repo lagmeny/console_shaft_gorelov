@@ -1,0 +1,7 @@
+config.json
+*.log
+node_modules/
+dist/
+.idea/
+.env
+!.env.example
