@@ -5,7 +5,7 @@ int main(void) {
     int counter = 0; // Счётчик
     bool is_running = true;
 
-    printf("Hello th the dangeon!\n");
+    printf("Hello to the dangeon!\n");
     print_map();
 
     // Главный цикл игры

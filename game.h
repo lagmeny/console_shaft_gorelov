@@ -7,6 +7,12 @@
 
 #define SIZE_CMD 16
 
+typedef struct {
+    const char *name;
+    const char *desc;
+} Command;
+
+void print_help(void);
 void print_map(void);
 void handle_command(const char *cmd, bool *running);
 
